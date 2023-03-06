@@ -3,5 +3,8 @@ public class DieselEngine{
         public void start(){
             System.out.print("Diesel Engine Started");
         }
+        public void stop(){
+            System.out.print("Diesel Engine Stopped");
+        }
     }
 }
