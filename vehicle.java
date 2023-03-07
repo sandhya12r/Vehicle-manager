@@ -6,5 +6,8 @@ public class vehicle{
         DieselEngine dE = new DieselEngine();
         dE.start();
         dE.stop();
+        HydrogenEngine hE = new HydrogenEngine();
+        hE.start();
+        hE.stop();
     }
 } 
